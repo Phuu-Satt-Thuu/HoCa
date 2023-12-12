@@ -1,0 +1,146 @@
+body{
+    background-image: url('images/bg.jpg');
+    background-repeat: no-repeat ;
+    background-size: cover;
+     
+ }
+ #shark{
+     left: 200px;top: 600px;
+     position: absolute;
+     animation-name: Shark;
+     animation-duration: 15s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-play-state: running;
+     transform: rotateY(180deg);
+ }
+ @keyframes Shark {
+     0%{
+         left: 250px;
+         top: 450px;
+         transform: rotateY(180deg);
+     }
+     50%{
+     left: 1300px;
+     top: 70px;
+     transform: rotateY(180deg);
+     }
+     50.01%{
+         transform: rotateY(0deg);
+         top: 40%;
+     }100%{
+         left: 0;
+         top: 750px;
+         transform: rotateY(0deg);
+     }
+ 
+ }
+ #diver1{
+     left: 100px;top: 300px;
+     position: absolute;
+     animation-name: Diver1;
+     animation-duration: 15s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-play-state: running;
+     transform: rotateY(0deg);
+ }
+ @keyframes Diver1
+ {
+     0%{
+         left: 50px;
+         top: 400px;
+         transform: rotateY(0deg);
+     }
+     50%{
+     left: 1250px;
+     top: 800px;
+     transform: rotateY(0deg);
+     }
+     50.01%{
+         transform: rotateY(180deg);
+         top: 70%;
+     }100%{
+         left: 500px;
+         top: 50%;
+         transform: rotateY(180deg);
+     }
+ }
+ #turtle{
+     left: 100px;top: 700px;
+     position: absolute;
+     animation-name: Turtle;
+     animation-duration: 18s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-play-state: running;
+     transform: rotateY(0deg);
+ }
+ @keyframes Turtle
+ {
+     0%{
+         left: 100px;
+         top: 300px;
+         transform: rotateY(0deg);
+     }
+     50%{
+     left: 1250px;
+     top:50% scale(-50%);
+     transform: rotateY(0deg);
+     }
+     50.01%{
+         transform: rotateY(180deg);
+         top: 40%;
+     }100%{
+         left: 100px;
+         top: 10%;
+         transform: rotateY(180deg);
+     }
+ }
+ *{
+     padding: 0px;
+     margin: 0px;
+     box-sizing: border-box;
+ }
+ #octopus{
+     left: 300px;
+     bottom: -200px;
+     position: absolute;
+     animation-name: Octopus;
+     animation-duration: 10s;
+     animation-timing-function: linear;
+     animation-iteration-count: infinite;
+     animation-play-state: running;
+ }
+ @keyframes Octopus
+ {
+    0%{
+     left: 300px;
+     top: 740px;
+    }
+    20%{
+     top: 600px;
+    }
+    40%{
+     top: 470px;
+    }
+    60%{
+     top: 300px;
+    }
+    80%{
+     top: 0px;
+    }
+    100%{
+     top: -150px;
+    }
+ }
+ #seaweed{
+     left: 925px;
+     bottom: -100px;
+     position: absolute;
+ }
+ #Audio{
+     left: 5px;
+     top: 25px;
+     position: absolute;
+ }
